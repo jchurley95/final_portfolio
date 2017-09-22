@@ -2,16 +2,16 @@
 
 one:
   name: MyString
-  picture_url: MyString
   description: MyString
-  deployed_url: MyString
-  github_url: MyString
-  background_color: MyString
+  pictureURL: MyString
+  deployedURL: MyString
+  githubURL: MyString
+  backgroundColor: MyString
 
 two:
   name: MyString
-  picture_url: MyString
   description: MyString
-  deployed_url: MyString
-  github_url: MyString
-  background_color: MyString
+  pictureURL: MyString
+  deployedURL: MyString
+  githubURL: MyString
+  backgroundColor: MyString
