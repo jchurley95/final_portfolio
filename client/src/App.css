@@ -1,24 +1,248 @@
-.App {
+/* App Body CSS */
+.app-body {
   text-align: center;
-}
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-image: url('./Images/black_wood.jpg');
+  background-attachment: fixed;
   color: white;
 }
+/* END App Body CSS */
 
-.App-intro {
-  font-size: large;
+/* Container CSS */
+.container {
+  
+  background-position: center;
+  padding: 10px;
 }
+/* END Container CSS */
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+/* Social Media Icon CSS */
+.social-media-icons-container {
+
+}
+.icon {
+  height: 35px;
+  width: 35px;
+  border-radius: 30px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px 10px rgba(0,100,225,0.7);
+  opacity: 0.8;
+  background-color: white;
+  margin: 11px;
+}
+.icon:hover {
+  opacity: 1;
+}
+.github-icon {
+  background-color: white;
+}
+/* END Social Media Icon CSS */
+
+/* Navbar CSS */
+.GlobalNav-container {
+  box-shadow: 2px 2px 20px black inset;
+  background-position: center;
+  display: flex;
+  background-image: url('./Images/wood_background.jpg');
+}
+.GlobalNav-container a {
+  margin: 10px;
+  padding: 10px;
+  color: rgba(225,225,225,0.9);
+  text-decoration: none;
+}
+/* END NavBar CSS */
+
+/* Splash CSS */
+.splash-container { 
+  display: flex;
+  justify-content: space-around;
+}
+.splash-container-circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 620px;
+  width: 620px;
+  border-radius: 300px;
+  background-color: rgba(225,225,225,0.4);
+  border-top: 2px solid rgba(225,225,225,0.8);
+  border-left: 2px solid rgba(225,225,225,0.8);
+  border-right: 2px solid rgba(225,225,225,0.8);
+  position: center;
+  margin: 20px;
+  box-shadow: 0 0 200px black inset;
+  opacity: 1;
+}
+.splash-container-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Monoton', sans-serif;
+  font-size: 30px;
+  text-decoration: ;
+  border-radius: 300px;
+  border-left: 2px solid rgba(225,225,225,0.5);
+  box-shadow: 5px 5px rgba(225,225,225,0.3);
+  height: 600px;
+  width: 600px;
+  opacity: 1;
+  position: center;
+  margin: 20px;
+  color: rgba(0,225,225,0.9);
+  background-image: url('./Images/Blue-Wood.jpg');
+  background-position: top;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  
+}
+.splash-container-content-full-stack {
+  border-radius: 300px;
+  border-left: 2px solid rgba(225,225,225,0.5);
+  color: white;
+  background-image: url('./Images/Blue-Wood.jpg');
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
+/* END Splash CSS */
+
+/* About Me CSS */
+.about-me-container {
+  background-image: url('./Images/Blue-Wood.jpg');
+  box-shadow: 2px 2px 100px black inset;
+  color: rgba(225,225,225,0.8);
+  font-size: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.about-me-transitioning-info{
+
+}
+.about-me-branding-statement {
+  display: block;
+}
+.about-me-background-info {
+  display: block;
+}
+.about-me-other-info {
+  display: block;
+}
+.branding-statement-button {
+  background-color: rgba(225,225,225,0.2);
+}
+.background-info-button {
+  background-color: rgba(0,0,0,0.6);
+}
+.other-info-button {
+  background-color: rgba(0,0,0,0.6);
+}
+/* END About Me CSS */
+
+/* Projects CSS */
+.project-list-container {
+  background-image: url('./Images/White-background.jpg');
+  opacity: 0.9;
+  box-shadow: 2px 2px 200px black inset;
+  color: black;
+  font-family: 'Monoton', sans-serif;
+  color: black;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+.project-list-container-title {
+  font-size: 50px;
+}
+.project-list {
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  overflow-x: scroll;
+  
+}
+.project-item {
+  border-radius: 300px;
+  height: 550px;
+  width: 600px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 200px black inset;
+  background-image: url('./Images/Blue-Wood.jpg');
+  font-size: 20px;
+  color: rgba(0,200,225,0.3);
+}
+.project-image {
+  margin: 20px;
+  height: 100px;
+  width: 230px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  opacity: 0.8;
+  box-shadow: 0 0 10px black;
+}
+.project-image:hover {
+  opacity: 1;
+}
+.project-description {
+  font-family: 'Asap Condensed', sans-serif;
+  font-size: 20px;
+  color: white;
+}
+/* End Project CSS */
+
+/* Contact CSS */
+.contact-container {
+}
+/* End Contact CSS */
+
+@media only screen and (max-width: 500px) {
+    /* Splash CSS */
+  .splash-container { 
+    display: flex;
+    justify-content: space-around;
+  }
+  .splash-container-circle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    background-color: rgba(0,0,0,0.3);
+    border-top: 2px solid rgba(0,120,225,0.5);
+    border-left: 2px solid rgba(225,225,225,0.5);
+    border-right: 2px solid rgba(0,120,225,0.5);
+    position: center;
+    margin: 20px;
+  }
+  .splash-container-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Monoton', sans-serif;
+    font-size: 13px;
+    border-radius: 300px;
+    border-left: 2px solid rgba(225,225,225,0.5);
+    box-shadow: 5px 5px rgba(0,120,225,0.5);
+    height: 280px;
+    width: 280px;
+    background-color: rgba(0,0,0,0.4);
+    position: center;
+    margin: 20px;
+    color: rgba(0,225,225,0.9);
+    background-image: url('./Images/Blue-Wood.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+/* END Splash CSS */
+
+  .icon {
+    margin: 3px;
+    box-shadow: 0 0 5px 5px rgba(0,100,225,.5);
+  }
+
+  .GlobalNav-container {
+    justify-content: space-between;
+  }
+
 }
